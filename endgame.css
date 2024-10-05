@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif,fantasy;
+    /* background-color: purple; */
+   
+}
+body{
+    background-image: url('endgame2.avif');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    background-color: rgb(14, 14, 86,0.8);
+    color: #fff;
+    font-size: larger;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.header nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: #fff;
+   
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.register{
+color: #fff;
+}
+.header nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.header nav img:hover{
+ background-color: #fff;
+ border: 3px solid #0a9396;
+}
+.header nav a:hover{
+    color: #0a9396;
+}
+.register:hover{
+    color: #0a9396;
+}
+.headings h1{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+.headings p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 2 rem; 
+    font-size: 27px;
+}
+.readdoc button {
+   height: 80px;
+   width: 200px;
+   text-align: center;
+    display: inline;
+    font-size: 20px;
+    /* display inline i suse to set both button in a line. */
+   margin-top: 7rem;
+   margin-left: 22rem;
+   border: 2px solid black;
+ box-shadow: 3px 6px rgba(117, 117, 199, 0.8); ;
+   
+   
+}
+.readdoc button:hover{
+    background-color:rgb(14, 14, 86,0.8);
+    color: white;
+    font-size: 22px;
+    opacity: 0.7;
+    border: 3px solid white;
+}
+.readdoc a{
+    text-decoration: none;
+}
